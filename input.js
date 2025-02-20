@@ -10,6 +10,7 @@ let restartButton = document.getElementById('restart');
 // Function to handle guess submission
 submitButton.addEventListener('click', function() {
     let userGuess = parseInt(guessInput.value);
+    
     attempts++;
     
     if (userGuess < 1 || userGuess > 100) {
